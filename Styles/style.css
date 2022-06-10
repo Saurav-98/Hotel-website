@@ -31,6 +31,26 @@ p {
     overflow: auto;
     padding: 0 20px;
 }
+.text-primary {
+    color: #f7c08a;
+}
+.lead-text {
+    font-size: 1.2rem;
+}
+.btn {
+    display: inline-block;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #333;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover ,
+.btn:focus {
+    color: #333;
+    background-color: #f7c08a;
+}
 /* Navbar */
 
 #navbar {
@@ -63,3 +83,28 @@ p {
     background-color: #444;
     color: #f7c08a;
 }
+
+/* Showcase */
+
+#showcase {
+    background: url("../images/showcase.jpg") no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 200px;
+
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
